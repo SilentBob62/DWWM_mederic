@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+body.bleu{
+    background-color: rgb(47, 182, 245);
+}
+body.rouge{
+    background-color: rgb(219, 95, 73);
+}
+body.vert{
+    background-color: rgb(55, 199, 42);
+}
+
+
+.tableau{
+    background-color: rgb(123, 182, 108);
+    border: white 3px solid;
+    padding: 2vw;
+}
+.ligne{
+    display: flex;
+    justify-content: center;
+}
+.ligne2{
+    display: flex;
+    justify-content: center;
+}
+input{
+    margin: 2vw;
+}
+button{
+    margin: 0 10vw;
+}

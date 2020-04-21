@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.menuDeroulant{
+    display: flex;
+}
+.menu{
+    width: 10vw;
+    height: 2vh;
+    background-color: blue;
+    border: black 2px solid;
+    margin: 0 1vw;
+}
+.sousMenuGroupe{
+    width: 10vw;
+    border: black 1px solid;
+    display: none;
+}
+.menuTitre:hover{
+    cursor: pointer;
+}
